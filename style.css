@@ -1,0 +1,39 @@
+.head {
+    font-family: 'Dancing Script', cursive;
+}
+
+.maincontainer {
+    background-color: #CFB997;
+    display: flex;
+    margin: 20px;
+}
+
+.first-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    display: inline-block;
+    margin: 30px 70px 30px 70px;
+    background-color: #E8F3D6;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 2px solid #FCF9BE;
+}
+
+button:hover {
+    color: white;
+    background-color: #CFB997;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
